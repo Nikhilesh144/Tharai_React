@@ -60,7 +60,7 @@ export default function HomePage(){
                         <p>Active Students</p> 
                     </div>
                     <div className="flex flex-col items-center justify-center">
-                    <p className="text-5xl font-semibold"><CountUp start={0} end={25} duration={3} enableScrollSpy={true} scrollSpyOnce= {true}/></p>
+                    <p className="text-5xl font-semibold"><CountUp start={0} end={31} duration={3} enableScrollSpy={true} scrollSpyOnce= {true}/></p>
                         <p>courses  </p> 
                     </div>
                 </div>
