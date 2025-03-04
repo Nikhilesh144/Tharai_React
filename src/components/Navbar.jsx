@@ -10,7 +10,7 @@ export default function Navbar(){
         <>
         <div className=" flex justify-between">
             <div className="flex items-center ">
-                <Link className="flex items-center" to="/"><img src="../src/images/logo.PNG" className=" size-20" alt="" /> <h2 className="text-4xl" >Tharai<span className="text-4xl text-green-500">E</span>dutech</h2></Link>
+                <Link className="flex items-center" to="/"><img src="./src/images/logo.PNG" className=" size-20" alt="" /> <h2 className="text-4xl" >Tharai<span className="text-4xl text-green-500">E</span>dutech</h2></Link>
             </div>
             <div className="hidden  lg:block" >
               <NavLinks/>
