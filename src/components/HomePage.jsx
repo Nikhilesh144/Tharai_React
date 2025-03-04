@@ -41,7 +41,7 @@ export default function HomePage(){
                 </div>
                </div>
                <div>
-                <img src="../src/images/boy.png" alt="" />
+                <img src="../src/images/Boy.png" alt="" />
                </div>
 
               </div>        
