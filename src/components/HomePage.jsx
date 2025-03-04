@@ -4,7 +4,7 @@ import CountUp from 'react-countup';
 import Chooseus from "./Chooseus";
 import Img1 from "../assets/banner1.png";
 import Img2 from "../assets/banner2.png";
-import Img3 from "../assets/Boy.png";
+import Img3 from "../images/Boy.png";
 import Banner from "./Banner";
 import Subject from "./Subject";
 export default function HomePage(){
