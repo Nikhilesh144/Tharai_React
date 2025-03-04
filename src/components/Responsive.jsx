@@ -1,7 +1,7 @@
 import React from "react";
 import {motion,AnimatePresence} from "framer-motion"
 import { Link } from "react-router-dom";
-export default function Responsive({isOpen}){
+export default function Responsive({isOpen ,setIsOpen}){
     return(
         <>
                 <AnimatePresence mode="wait">
@@ -16,10 +16,10 @@ export default function Responsive({isOpen}){
                             >
                                 <div className="text-xl font-semibold uppercase bg-green-400 text-white py-10 m-6 rounded-3xl">
                                     <ul className="flex flex-col justify-center items-center gap-10 ">
-                                        <li> <Link to="">Home</Link></li>
-                                        <li> <Link to="about">about</Link></li>
-                                        <li> <Link to="courses">courses</Link></li>
-                                        <li> <Link to="contact">contact</Link></li>
+                                        <li> <Link onClick={()=>{setIsOpen(false)}} to="">Home</Link></li>
+                                        <li> <Link onClick={()=>{setIsOpen(false)}} to="about">about</Link></li>
+                                        <li> <Link onClick={()=>{setIsOpen(false)}} to="courses">courses</Link></li>
+                                        <li> <Link onClick={()=>{setIsOpen(false)}} to="contact">contact</Link></li>
                                     </ul>
                                 </div>
                             </motion.div>

@@ -24,7 +24,7 @@ export default function Navbar(){
         <Marquee className="bg-green-400">
         Career-focused curriculum | Flexible learning options | Expert instructors | Hands-on projects | Collaborative learning environment | Job placement assistance | Scholarships based on performance | Live Q&A sessions | Continuous updates | Personalized learning paths
 </Marquee>
-        <Responsive isOpen={isOpen}/>
+        <Responsive isOpen={isOpen} setIsOpen={setIsOpen}/>
        
         </>
     )
