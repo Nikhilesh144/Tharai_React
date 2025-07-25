@@ -6,6 +6,9 @@ import Img3 from "../images/med.png";
 import Img4 from "../images/about.jpg";
 import Img5 from "../images/vision.jpg";
 import Img6 from "../images/mission.jpg";
+import Img7 from "../images/p1.png";
+import Img8 from "../images/p2.png";
+import Img9 from "../images/p3.png";
 
 export default function About(){
 
@@ -63,13 +66,13 @@ export default function About(){
                     <p>Our vision for the Tharai EduTech is simple: to make high-quality technical education accessible to all. Through our platform, we aim to break down barriers to learning, empower individuals worldwide, and prepare them for success in the ever-evolving tech industry. We're committed to providing a dynamic learning environment, fostering a supportive community, and staying at the forefront of technology trends. Our ultimate goal is to empower people to pursue their passions, unlock their potential, and make a positive impact on the world through the transformative power of technology..</p>
                     <ul  className="flex justify-center items-center flex-col ">
                     <li className="flex  justify-center items-center   h-14 ">
-                        <img src="../src/images/p1.png" alt=""  className="w-10 h-10 m-10"/> <p>Empower individuals worldwide with accessible, high-quality programming education.</p>
+                        <img src={Img7} alt=""  className="w-10 h-10 m-10"/> <p>Empower individuals worldwide with accessible, high-quality programming education.</p>
                     </li>
                     <li className="flex justify-center items-center h-14" >
-                        <img src="../src/images/p2.png" alt=""  className="w-10 h-10 m-10"/> <p>Bridge the gap between theoretical knowledge and practical application through hands-on projects.</p>
+                        <img src={Img8}alt=""  className="w-10 h-10 m-10"/> <p>Bridge the gap between theoretical knowledge and practical application through hands-on projects.</p>
                     </li>
                     <li className="flex justify-center items-center h-14" >
-                        <img src="../src/images/p3.png" alt=""  className="w-10 h-10 m-10"/> <p>Provide performance-based scholarships for outstanding students.</p>
+                        <img src={Img9}alt=""  className="w-10 h-10 m-10"/> <p>Provide performance-based scholarships for outstanding students.</p>
                     </li>
                 </ul>
                 </div>
