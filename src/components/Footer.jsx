@@ -3,6 +3,7 @@ import React from "react";
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { HiLocationMarker } from "react-icons/hi";
 import { MdComputer } from "react-icons/md";
+import Img3 from "../images/logo.png";
 import FooterImg from "../assets/footer.jpg";
 const FooterBg = {
     backgroundImage: `url(${FooterImg})`,
@@ -19,7 +20,7 @@ export default function Footer(){
                 {/* brand info section */}
                 <div className="py-8 px-4 space-y-4">
                   <div className="text-2xl flex items-center gap-2 font-bold uppercase">
-                    <img src="../src/images/logo.png "  className="w-14 h-14"alt="logo" />
+                    <img src={Img3} className="w-14 h-14"alt="logo" />
                     <p className="text-green-500">Tharai Edutech</p>
                   </div>
                   <p>
