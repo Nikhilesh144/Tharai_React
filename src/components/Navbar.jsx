@@ -2,6 +2,7 @@ import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import NavLinks from "./NavLinks";
 import { MdMenu } from "react-icons/md";
+import Img3 from "../images/logo.png";
 import Marquee from "react-fast-marquee";
 import Responsive from "./Responsive";
 export default function Navbar(){
@@ -10,7 +11,7 @@ export default function Navbar(){
         <>
         <div className=" flex justify-between">
             <div className="flex items-center ">
-                <Link className="flex items-center" to="/"><img src="./src/images/logo.PNG" className=" size-20" alt="" /> <h2 className="text-4xl" >Tharai<span className="text-4xl text-green-500">E</span>dutech</h2></Link>
+                <Link className="flex items-center" to="/"><img src={Img3} className=" size-20" alt="" /> <h2 className="text-4xl" >Tharai<span className="text-4xl text-green-500">E</span>dutech</h2></Link>
             </div>
             <div className="hidden  lg:block" >
               <NavLinks/>
