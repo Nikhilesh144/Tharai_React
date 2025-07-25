@@ -15,7 +15,7 @@ import MEAN from "../images/img/MEAN.jpg";
 import UI from "../images/img/UI.jpg";
 import R from "../images/img/R-programming.jpg";
 import golang from "../images/img/golang.png";
-import cpp from "../images/img/c++.webp";
+// import cpp from "../images/img/c++.webp";
 import sasLogo from "../images/img/sasLogo.png";
 import solidity from "../images/img/solidity.jpg";
 import sql from "../images/img/SQL.jpg";
@@ -533,31 +533,31 @@ export default function Courses(){
               "Collaborating with other Go developers using version control systems like Git."
           ]
       },
-      {
-          "id": 19,
-          "image": cpp,
-          "title": "C/C++ PROGRAMMING",
-          "tag": "In a C/C++ Programming course, students learn the fundamentals of the C and C++ programming languages, including basic syntax, data types, control structures, and memory management.",
-          "overView": "This course provides comprehensive training in C and C++ programming languages, covering basic syntax, data types, control structures, functions, pointers, and memory management. Students will also learn about object-oriented programming concepts in C++, file I/O operations, and debugging techniques.",
-          "Objectives": [
-              "Understand the basic syntax and structure of the C and C++ programming languages.",
-              "Learn about fundamental programming concepts such as variables, data types, control flow, and functions.",
-              "Explore advanced features of C++ such as classes, objects, inheritance, polymorphism, and templates.",
-              "Understand memory management concepts in C and C++ including pointers, dynamic memory allocation, and memory deallocation.",
-              "Learn how to perform file I/O operations in C and C++ to read from and write to files.",
-              "Understand debugging techniques and tools for identifying and fixing errors in C and C++ programs."
-          ],
-          "whatYouLearn": [
-              "Writing C and C++ programs to solve various programming problems and tasks.",
-              "Using arrays, structures, and pointers for efficient data manipulation in C and C++.",
-              "Implementing object-oriented programming principles in C++ to build reusable and modular code.",
-              "Managing memory dynamically using pointers and memory allocation functions in C and C++.",
-              "Performing file I/O operations to read from and write to files in C and C++ programs.",
-              "Utilizing debugging techniques and tools to identify and fix errors in C and C++ programs.",
-              "Understanding best practices for writing efficient and maintainable code in C and C++.",
-              "Testing and debugging C and C++ programs to ensure their reliability and correctness."
-          ]
-      },
+    //   {
+    //       "id": 19,
+    //       "image": cpp,
+    //       "title": "C/C++ PROGRAMMING",
+    //       "tag": "In a C/C++ Programming course, students learn the fundamentals of the C and C++ programming languages, including basic syntax, data types, control structures, and memory management.",
+    //       "overView": "This course provides comprehensive training in C and C++ programming languages, covering basic syntax, data types, control structures, functions, pointers, and memory management. Students will also learn about object-oriented programming concepts in C++, file I/O operations, and debugging techniques.",
+    //       "Objectives": [
+    //           "Understand the basic syntax and structure of the C and C++ programming languages.",
+    //           "Learn about fundamental programming concepts such as variables, data types, control flow, and functions.",
+    //           "Explore advanced features of C++ such as classes, objects, inheritance, polymorphism, and templates.",
+    //           "Understand memory management concepts in C and C++ including pointers, dynamic memory allocation, and memory deallocation.",
+    //           "Learn how to perform file I/O operations in C and C++ to read from and write to files.",
+    //           "Understand debugging techniques and tools for identifying and fixing errors in C and C++ programs."
+    //       ],
+    //       "whatYouLearn": [
+    //           "Writing C and C++ programs to solve various programming problems and tasks.",
+    //           "Using arrays, structures, and pointers for efficient data manipulation in C and C++.",
+    //           "Implementing object-oriented programming principles in C++ to build reusable and modular code.",
+    //           "Managing memory dynamically using pointers and memory allocation functions in C and C++.",
+    //           "Performing file I/O operations to read from and write to files in C and C++ programs.",
+    //           "Utilizing debugging techniques and tools to identify and fix errors in C and C++ programs.",
+    //           "Understanding best practices for writing efficient and maintainable code in C and C++.",
+    //           "Testing and debugging C and C++ programs to ensure their reliability and correctness."
+    //       ]
+    //   },
       {
           "id": 20,
           "image": sasLogo,
