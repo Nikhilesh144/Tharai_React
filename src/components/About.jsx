@@ -1,5 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Img1 from "../images/travel.png";
+import Img2 from "../images/chits.png";
+import Img3 from "../images/Boy.png";
+import Img4 from "../images/about.png";
+
 export default function About(){
 
       const WhyChooseData = [
@@ -8,7 +13,7 @@ export default function About(){
             id: 1,
             title: "Tharai Travels",
             desc: "All of our special education experts have a degree in  special education.", 
-            img:"travel.png",
+            img:{Img1},
          
             bgColor: "#0063ff",
             delay: 0.3,
@@ -17,7 +22,7 @@ export default function About(){
                 id: 2,
                 title: "Tharai Chitfunds",
                 desc: "The course is completly online and Recorded Sessions are provided with full time Trainer Support.", 
-                img:"chits.png",
+              img:{Img2},
                 bgColor: "#0ab5b2",
                 delay: 0.3,
              },
@@ -25,7 +30,7 @@ export default function About(){
                     id: 3,
                     title: "Bogar Medicals",
                     desc: "Unlock Your Potential with Our Globally Recognized Certification Program: Gain the Skills and Credentials Needed to Thrive in Any Industry, Anywhere in the World.", 
-                    img:"med.png",
+                    img:{Img3},
                     bgColor: "#b00ab5",
                     delay: 0.3,
                 },
@@ -43,7 +48,7 @@ export default function About(){
                 </div>
                </div>
                <div>
-                <img src="../src/images/about.jpg" alt="" />
+                <img src= {Img4} alt="" />
                </div>
 
               </div>  
