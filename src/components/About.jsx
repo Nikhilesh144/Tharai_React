@@ -2,8 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Img1 from "../images/travel.png";
 import Img2 from "../images/chits.png";
-import Img3 from "../images/Boy.png";
+import Img3 from "../images/med.png";
 import Img4 from "../images/about.jpg";
+import Img5 from "../images/vision.jpg";
+import Img6 from "../images/mission.jpg";
 
 export default function About(){
 
@@ -13,7 +15,7 @@ export default function About(){
             id: 1,
             title: "Tharai Travels",
             desc: "All of our special education experts have a degree in  special education.", 
-            img:{Img1},
+            img:Img1,
          
             bgColor: "#0063ff",
             delay: 0.3,
@@ -22,7 +24,7 @@ export default function About(){
                 id: 2,
                 title: "Tharai Chitfunds",
                 desc: "The course is completly online and Recorded Sessions are provided with full time Trainer Support.", 
-              img:{Img2},
+              img:Img2,
                 bgColor: "#0ab5b2",
                 delay: 0.3,
              },
@@ -30,7 +32,7 @@ export default function About(){
                     id: 3,
                     title: "Bogar Medicals",
                     desc: "Unlock Your Potential with Our Globally Recognized Certification Program: Gain the Skills and Credentials Needed to Thrive in Any Industry, Anywhere in the World.", 
-                    img:{Img3},
+                    img:Img3,
                     bgColor: "#b00ab5",
                     delay: 0.3,
                 },
@@ -73,7 +75,7 @@ export default function About(){
                 </div>
                </div>
                <div>
-                <img src="../src/images/vision.jpg" alt="" />
+                <img src={Img5} alt="" />
                </div>
 
               </div>    
@@ -88,7 +90,7 @@ export default function About(){
                 </div>
                </div>
                <div>
-                <img src="../src/images/mission.jpg" alt="" />
+                <img src={Img6} alt="" />
                </div>
 
               </div> 
@@ -138,7 +140,7 @@ export default function About(){
                                
                                     <div className="flex justify-center items-center">
                                         <div  className="flex text-2xl justify-center items-center rounded-lg w-16 h-10">
-                                            <img src={`../src/images/${item.img}`} alt="" />
+                                            <img src={item.img} alt="" />
                                         </div>
                                        
                                     </div>

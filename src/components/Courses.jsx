@@ -1,8 +1,37 @@
 import React from "react";
+import DSML2 from "../images/img/DSML2.jpg";
+import MLAI from "../images/img/MLAI.jpg";
+import DATAE2 from "../images/img/DATAE2.jpg";
+import dataan from "../images/img/dataan.jpg";
+import busiAN from "../images/img/busiAN.jpg";
+import genai from "../images/img/genai.jpg";
+import bc2 from "../images/img/bc2.jpg";
+import dsa from "../images/img/dsa.jpg";
+import java from "../images/img/java.jpg";
+import py from "../images/img/py.jpg";
+import dot from "../images/img/dot.jpg";
+import MERN from "../images/img/MERN.jpg";
+import MEAN from "../images/img/MEAN.jpg";
+import UI from "../images/img/UI.jpg";
+import R from "../images/img/R-programming.jpg";
+import golang from "../images/img/golang.png";
+import cpp from "../images/img/c++.webp";
+import sasLogo from "../images/img/sasLogo.png";
+import solidity from "../images/img/solidity.jpg";
+import sql from "../images/img/SQL.jpg";
+import plsql from "../images/img/plsql.png";
+import mysql2 from "../images/img/mysql2.png";
+import odb from "../images/img/odb.jpg";
+import mysql from "../images/img/mysql.jpg";
+import maria from "../images/img/maria.jpg";
+import mongo from "../images/img/mongo.png";
+import cass from "../images/img/cass.png";
+import oscp from "../images/img/oscp.jpg";
+import mscd from "../images/img/mscd.png";
 export default function Courses(){
     let Data = [{
         id:0,
-        image:"img/DSML2.jpg",
+        image:DSML2,
         title:"DATA SCIENCE AND MACHINE LEARNNG",
         tag:"Unlock the power of data and shape the future with our Data Science and Machine Learning course.",
         overView:" This course provides an introduction to the fundamental concepts and techniques of data science and machine learning. "+
@@ -31,7 +60,7 @@ export default function Courses(){
       
       {
             id:1,
-            image:"img/MLAI.jpg",
+            image:MLAI,
             title:"ARTIFICIAL INTELLEGENCE AND MACHINE LEARNING",
             tag:"This detailed course outline provides a comprehensive guide to what students can expect from an AI and ML course,"+
             " ensuring they gain both theoretical knowledge and practical skills.",
@@ -59,7 +88,7 @@ export default function Courses(){
       
         {
             id:2,
-            image:"img/DATAE2.jpg",
+            image:DATAE2,
             title:"DATA ENGINEERING",
             tag:"A data engineering course is typically a blend of theoretical knowledge and practical skills,"+
             " often involving hands-on labs, projects, and real-world case studies to prepare students for the challenges "+
@@ -88,7 +117,7 @@ export default function Courses(){
       
         {
             id:3,
-            image:"img/dataan.jpg",
+            image:dataan,
             title:"DATA ANALYTICS",
             tag:"This course aims to prepare students for various roles in data analytics, "+
             "equipping them with the necessary skills to analyze data effectively and contribute to data-driven decision-making processes in organizations.",
@@ -117,7 +146,7 @@ export default function Courses(){
       
         {
             id:4,
-            image:"img/busiAN.jpg",
+            image:busiAN,
             title:"BUSINESS ANALYTICS",
             tag:"A business analytics course focuses on using data analysis and statistical methods to solve business problems and make informed decisions.",
             overView:"students will have a solid understanding of how to leverage data analytics to drive business success and make informed decisions.",
@@ -143,7 +172,7 @@ export default function Courses(){
       
         {
             id:5,
-            image:"img/genai.jpg",
+            image:genai,
             title:"GENERATIVE AI ",
             tag:"A course on Generative AI typically delves into the theory, techniques,"+
             " and applications of artificial intelligence models that generate new content, such as images, text, music, and more. ",
@@ -171,7 +200,7 @@ export default function Courses(){
       
         {
             id:6,
-            image:"img/bc2.jpg",
+            image:bc2,
             title:"FOUNDATIONS OF BLOCK CHAIN",
             tag:" students will have a comprehensive understanding of blockchain technology, its underlying principles, and its potential applications across various industries.",
             overView:"This course provides an introduction to blockchain technology, covering its architecture, cryptographic principles, and consensus mechanisms."+
@@ -197,7 +226,7 @@ export default function Courses(){
       
         {
             id:7,
-            image:"img/dsa.jpg",
+            image:dsa,
             title:"DATA STRUCTURES AND ALGORITHMS ",
             tag:"The Data Structures and Algorithms course introduces fundamental concepts for organizing and processing data efficiently, crucial for "+
             "designing and optimizing software solutions. Students learn to implement various data structures and algorithms to solve complex problems in computing.",
@@ -224,7 +253,7 @@ export default function Courses(){
       
         {
             id:8,
-            image:"img/java.jpg",
+            image:java,
             title:"JAVA FULL STACK DEVELOPMENT",
             tag:"A Java Full Stack Development course typically covers both frontend and backend web development using Java technologies.",
             overView:"the skills and knowledge needed to develop full stack web applications using Java technologies, from frontend user"+
@@ -250,7 +279,7 @@ export default function Courses(){
       
         {
             id:9,
-            image:"img/py.jpg",
+            image:py,
             title:"PYTHON FULLSTACK DEVELOPMENT",
             tag:"A Python Full Stack Development course equips learners with skills in both frontend and backend web development using Python-based "+
             "frameworks and technologies, preparing them for roles as versatile web developers.",
@@ -277,7 +306,7 @@ export default function Courses(){
       
         {
             id:10,
-            image:"img/dot.jpg",
+            image:dot,
             title:"FULL STACK DEVELOPMENT WITH DOT NET",
             tag:"In a Full Stack Development course with .NET technologies, "+
             "students learn to build end-to-end web applications using the Microsoft .NET framework for both frontend and backend development. ",
@@ -299,7 +328,7 @@ export default function Courses(){
       
         {
             id:11,
-            image:"img/MERN.jpg",
+            image:MERN,
             title:"MERN STACK DEVELOPMENT",
             tag:"In a MERN (MongoDB, Express.js, React.js, Node.js) Stack Development course, students learn to build full stack web applications"+
             " using JavaScript-based technologies for both frontend and backend development",
@@ -324,7 +353,7 @@ export default function Courses(){
         },
         {
           id:12,
-          image: "img/MEAN.jpg",
+          image: MEAN,
           title: "MEAN STACK DEVELOPMENT",
           tag: "In a MEAN (MongoDB, Express.js, Angular, Node.js) Stack Development course, students learn to build full stack web applications" +
               " using JavaScript-based technologies for both frontend and backend development.",
@@ -349,7 +378,7 @@ export default function Courses(){
       },
       {
           id: 13,
-          image: "img/UI.jpg",
+          image: UI,
           title: "UI/UX TECHNOLOGIES",
           tag: "In a UI/UX Technologies course, students learn the principles, tools, and techniques for designing user-friendly and visually appealing interfaces" +
               " for web and mobile applications.",
@@ -373,7 +402,7 @@ export default function Courses(){
       },
       {
           id: 14,
-          image: "img/java.jpg",
+          image: java,
           title: "JAVA PROGRAMMING",
           tag: "In a Java Programming course, students learn the fundamentals of Java programming language, object-oriented programming concepts," +
               " and application development using Java.",
@@ -400,7 +429,7 @@ export default function Courses(){
       ,
       {
           "id": 15,
-          "image": "img/py.jpg",
+          "image": py,
           "title": "PYTHON PROGRAMMING",
           "tag": "In a Python Programming course, students learn the fundamentals of the Python programming language, data structures, algorithms, and application development using Python.",
           "overView": "This course offers comprehensive training in Python programming language, covering basic syntax, data types, control structures, functions, modules, and object-oriented programming principles. Students will also learn how to develop various applications using Python, including scripting, web development, data analysis, and machine learning.",
@@ -427,7 +456,7 @@ export default function Courses(){
       },
       {
           "id": 16,
-          "image": "img/dot.jpg",
+          "image": dot,
           "title": ".NET DEVELOPMENT",
           "tag": "In a .NET Development course, students learn the fundamentals of the .NET framework, C# programming language, and application development using .NET technologies.",
           "overView": "This course provides comprehensive training in .NET development, covering the basics of the .NET framework, C# programming language, and various .NET technologies such as ASP.NET for web development and WinForms or WPF for desktop applications. Students will also learn about database connectivity, error handling, and security aspects of .NET development.",
@@ -454,7 +483,7 @@ export default function Courses(){
       },
       {
           "id": 17,
-          "image": "img/R-programming.jpg",
+          "image": R,
           "title": "R PROGRAMMING",
           "tag": "In an R Programming course, students learn the fundamentals of the R programming language, data analysis, visualization, and statistical computing.",
           "overView": "This course offers comprehensive training in R programming language, covering basic syntax, data types, control structures, functions, and statistical computing. Students will learn how to manipulate and analyze data using R's extensive libraries, perform statistical tests, and create visualizations to communicate insights effectively.",
@@ -480,7 +509,7 @@ export default function Courses(){
       },
       {
           "id": 18,
-          "image": "img/golang.png",
+          "image": golang,
           "title": "GO PROGRAMMING",
           "tag": "In a Go Programming course, students learn the fundamentals of the Go programming language, concurrent programming, and application development.",
           "overView": "This course provides comprehensive training in Go programming language, covering basic syntax, data types, control structures, functions, and concurrent programming features. Students will learn how to develop efficient and scalable applications using Go's powerful standard library and concurrency primitives.",
@@ -506,7 +535,7 @@ export default function Courses(){
       },
       {
           "id": 19,
-          "image": "img/c++.webp",
+          "image": cpp,
           "title": "C/C++ PROGRAMMING",
           "tag": "In a C/C++ Programming course, students learn the fundamentals of the C and C++ programming languages, including basic syntax, data types, control structures, and memory management.",
           "overView": "This course provides comprehensive training in C and C++ programming languages, covering basic syntax, data types, control structures, functions, pointers, and memory management. Students will also learn about object-oriented programming concepts in C++, file I/O operations, and debugging techniques.",
@@ -531,7 +560,7 @@ export default function Courses(){
       },
       {
           "id": 20,
-          "image": "img/sasLogo.png",
+          "image": sasLogo,
           "title": "SAS PROGRAMMING",
           "tag": "In a SAS Programming course, students learn the fundamentals of the SAS programming language, data manipulation, statistical analysis, and reporting.",
           "overView": "This course offers comprehensive training in SAS programming language, covering data manipulation techniques, statistical analysis, and reporting capabilities. Students will learn how to import, clean, and analyze data using SAS procedures, perform statistical tests, and create customized reports and visualizations.",
@@ -556,7 +585,7 @@ export default function Courses(){
       },
       {
           "id": 21,
-          "image": "img/solidity.jpg",
+          "image": solidity,
           "title": "SOLIDITY SMART CONTRACT DEVELOPMENT",
           "tag": "In a Solidity Smart Contract Development course, students learn the fundamentals of the Solidity programming language, blockchain concepts, and smart contract development.",
           "overView": "This course offers comprehensive training in Solidity programming language, covering basic syntax, data types, control structures, and object-oriented programming principles specific to blockchain development. Students will learn how to develop smart contracts for Ethereum and other blockchain platforms, deploy them on a blockchain network, and interact with them using web3.js or other relevant libraries.",
@@ -581,7 +610,7 @@ export default function Courses(){
       },
       {
           "id": 22,
-          "image": "img/SQL.jpg",
+          "image": sql,
           "title": "SQL DATABASE MANAGEMENT",
           "tag": "In an SQL Database Management course, students learn the fundamentals of Structured Query Language (SQL), database design, and management.",
           "overView": "This course provides comprehensive training in SQL, covering basic to advanced concepts of database management. Students will learn how to design, create, query, and manage relational databases using SQL. They will also explore topics such as data normalization, indexing, transactions, and database security.",
@@ -607,7 +636,7 @@ export default function Courses(){
       },
       {
           "id": 23,
-          "image": "img/plsql.png",
+          "image": plsql,
           "title": "PL/SQL PROGRAMMING",
           "tag": "In a PL/SQL Programming course, students learn the fundamentals of PL/SQL, an extension of SQL used for procedural programming and database development in Oracle databases.",
           "overView": "This course offers comprehensive training in PL/SQL programming language, covering basic to advanced concepts of procedural programming and database development. Students will learn how to write stored procedures, functions, triggers, and packages in PL/SQL to automate tasks, enhance database security, and improve performance.",
@@ -633,7 +662,7 @@ export default function Courses(){
       },
       {
           "id": 24,
-          "image": "img/mysql2.png",
+          "image": mysql2,
           "title": "MYSQL DATABASE MANAGEMENT",
           "tag": "In a MySQL Database Management course, students learn the fundamentals of MySQL, a popular relational database management system.",
           "overView": "This course provides comprehensive training in MySQL, covering basic to advanced concepts of database management. Students will learn how to design, create, query, and manage MySQL databases. They will also explore topics such as data normalization, indexing, transactions, and database security specific to MySQL.",
@@ -659,7 +688,7 @@ export default function Courses(){
       },
       {
           "id": 25,
-          "image": "img/odb.jpg",
+          "image": odb,
           "title": "ORACLE DATABASE MANAGEMENT",
           "tag": "In an Oracle Database Management course, students learn the fundamentals of Oracle Database, a powerful relational database management system.",
           "overView": "This course offers comprehensive training in Oracle Database, covering basic to advanced concepts of database management. Students will learn how to design, create, query, and manage Oracle databases. They will also explore topics such as data normalization, indexing, transactions, and database security specific to Oracle Database.",
@@ -685,7 +714,7 @@ export default function Courses(){
       },
       {
           "id": 26,
-          "image": "img/mssql.jpg.crdownload",
+          "image": mysql,
           "title": "MS SQL SERVER DATABASE MANAGEMENT",
           "tag": "In an MS SQL Server Database Management course, students learn the fundamentals of Microsoft SQL Server, a leading relational database management system.",
           "overView": "This course offers comprehensive training in Microsoft SQL Server, covering basic to advanced concepts of database management. Students will learn how to design, create, query, and manage SQL Server databases. They will also explore topics such as data normalization, indexing, transactions, and database security specific to SQL Server.",
@@ -711,7 +740,7 @@ export default function Courses(){
       },
       {
           "id": 27,
-          "image": "img/maria.jpg",
+          "image": maria,
           "title": "MariaDB DATABASE MANAGEMENT",
           "tag": "In a MariaDB Database Management course, students learn the fundamentals of MariaDB, an open-source relational database management system.",
           "overView": "This course offers comprehensive training in MariaDB, covering basic to advanced concepts of database management. Students will learn how to design, create, query, and manage MariaDB databases. They will also explore topics such as data normalization, indexing, transactions, and database security specific to MariaDB.",
@@ -737,7 +766,7 @@ export default function Courses(){
       },
       {
           "id": 28,
-          "image": "img/mongo.png",
+          "image": mongo,
           "title": "MONGODB DATABASE MANAGEMENT",
           "tag": "In a MongoDB Database Management course, students learn the fundamentals of MongoDB, a NoSQL database management system.",
           "overView": "This course offers comprehensive training in MongoDB, covering basic to advanced concepts of NoSQL database management. Students will learn how to design, create, query, and manage MongoDB databases. They will also explore topics such as document modeling, indexing, transactions, and database security specific to MongoDB.",
@@ -763,7 +792,7 @@ export default function Courses(){
       },
       {
           "id": 29,
-          "image": "img/cass.png",
+          "image": cass,
           "title": "CASSANDRA DATABASE MANAGEMENT",
           "tag": "In a Cassandra Database Management course, students learn the fundamentals of Apache Cassandra, a highly scalable and distributed NoSQL database management system.",
           "overView": "This course offers comprehensive training in Apache Cassandra, covering basic to advanced concepts of distributed database management. Students will learn how to design, create, query, and manage Cassandra databases. They will also explore topics such as data modeling, replication, partitioning, and database tuning specific to Cassandra.",
@@ -791,7 +820,7 @@ export default function Courses(){
           "id": 30,
           "title": "OSCP CERTIFICATION PREPARATION",
           "tag": "In an OSCP Certification Preparation course, students prepare for the Offensive Security Certified Professional (OSCP) certification, which validates their ability to identify and exploit vulnerabilities in computer systems.",
-          "image": "img/oscp.jpg",
+          "image": oscp,
           overView: "This course offers comprehensive training in penetration testing and ethical hacking techniques required for the OSCP certification exam. Students will learn how to conduct information gathering, network scanning, vulnerability assessment, and exploitation using various tools and methodologies. They will also gain hands-on experience in exploiting real-world vulnerabilities in a controlled lab environment.",
               Objectives: [
               "Understand the methodologies and techniques used in penetration testing and ethical hacking.",
@@ -818,7 +847,7 @@ export default function Courses(){
           "id": 31,
           "title": "MSCD CERTIFICATION PREPARATION",
           "tag": "In an MSCD Certification Preparation course, students prepare for the Microsoft Certified: Azure Solutions Architect Expert certification, which validates their expertise in designing and implementing solutions that run on Microsoft Azure.",
-          "image": "img/mscd.png",
+          "image": mscd,
           "overView": "This course offers comprehensive training in Azure architecture and implementation techniques required for the MSCD certification exam. Students will learn how to design and deploy scalable, secure, and resilient solutions on the Azure platform. They will gain hands-on experience in implementing Azure services, managing identities, securing data, and optimizing performance and costs.",
           "Objectives": [
               "Understand the architecture and components of the Microsoft Azure platform.",
@@ -862,7 +891,7 @@ export default function Courses(){
                                
                                     <div className="flex justify-center items-center">
                                         <div style={{backgroundColor:item.bgColor}} className="flex text-2xl justify-center items-center rounded-lg  h-10 text-white">
-                                        <img src={`../src/images/${item.image}`} className="h-32 w-60 mb-7 mt-6 rounded-xl" alt=""  />
+                                        <img src={item.image} className="h-32 w-60 mb-7 mt-6 rounded-xl" alt=""  />
                                         </div>
                                        
                                     </div>

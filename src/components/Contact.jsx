@@ -5,6 +5,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { useRef } from "react";
 import { Form } from "react-router-dom";
 import { HiOutlineMail } from "react-icons/hi";
+import contactImg from "../images/contact.jpg";
 export default function Contact(){
 
     const form = useRef();
@@ -39,7 +40,7 @@ export default function Contact(){
                 </div>
                </div>
                <div>
-                <img src="../src/images/contact.jpg"  className="size-auto" alt="" />
+                <img src={contactImg}  className="size-auto" alt="" />
                </div>
 
               </div>  
