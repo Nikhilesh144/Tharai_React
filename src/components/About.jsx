@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Img1 from "../images/travel.png";
 import Img2 from "../images/chits.png";
 import Img3 from "../images/Boy.png";
-import Img4 from "../images/about.png";
+import Img4 from "../images/about.jpg";
 
 export default function About(){
 
